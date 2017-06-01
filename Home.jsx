@@ -6,6 +6,7 @@ import FlatButton from 'material-ui/FlatButton';
 import ActionSearch from 'material-ui/svg-icons/action/search';
 import {fullWhite} from 'material-ui/styles/colors';
 import Intro from './Intro';
+import FormalEducation from './FormalEducation';
 import WorkExperience from './WorkExperience';
 import Skills from './Skills';
 import ContactInfo from './ContactInfo';
@@ -153,10 +154,7 @@ const skills = [
     skills: [
       { id: 1, name: 'Entity Framework', level: 5, lastUsed: 2017 },
       { id: 2, name: '.NET Core', level: 3, lastUsed: 2017 },
-      { id: 3, name: 'WCF', level: 5, lastUsed: 2017 },
-      { id: 4, name: 'RabbitMQ', level: 3, lastUsed: 2017 },
-      { id: 5, name: 'ElasticSearch', level: 3, lastUsed: 2017 },
-      { id: 6, name: 'Kibana', level: 3, lastUsed: 2017 }
+      { id: 3, name: 'WCF', level: 5, lastUsed: 2017 }
     ]
   },
   {
@@ -216,6 +214,7 @@ class Home extends React.Component {
   render() {
     return (<div>
               <Intro />
+              <FormalEducation />
               <WorkExperience experience={workExperience}/>
               <Skills skills={skills}/>
               <ContactInfo />
