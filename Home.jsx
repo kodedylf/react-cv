@@ -33,7 +33,7 @@ const workExperience = [
     toYear: 2015,
     title: 'Consultant',
     company: 'Danske Bank A/S',
-    description: 'Developer and architect i the Credit department. Development of system for valuation of investment properties. Development of document storage system. Development of system for calculating customer exposure. Maintaining existing system portfolio.',
+    description: 'Developer and architect i the Credit & Risk department. Development of system for valuation of investment properties. Development of document storage system. Development of system for calculating customer exposure. Maintaining existing system portfolio.',
     tools: ['C#', 'SQL Server (Entity Framework)', 'WCF', 'SOAP', 'Rest', 'XML', 'Web', 'PL/1', 'DB2', 'Domain-driven design']
   },
   {
@@ -154,7 +154,9 @@ const skills = [
     skills: [
       { id: 1, name: 'Entity Framework', level: 5, lastUsed: 2017 },
       { id: 2, name: '.NET Core', level: 3, lastUsed: 2017 },
-      { id: 3, name: 'WCF', level: 5, lastUsed: 2017 }
+      { id: 3, name: 'WCF', level: 5, lastUsed: 2017 },
+      { id: 4, name: 'Castle Windsor', level: 4, lastUsed: 2017 },
+      { id: 5, name: 'Serilog', level: 4, lastUsed: 2017 }
     ]
   },
   {
