@@ -10,7 +10,7 @@ class WorkExperience extends React.Component {
           {this.props.experience.map(item =>
             <div key={item.id} >
               <div style={{ width: '12%', display: 'inline-block', verticalAlign: 'top' }} >{item.fromYear} - {item.toYear}</div>
-              <div style={{ width: '88%', display: 'inline-block', verticalAlign: 'top' }} >{item.title} at {item.company}<br />{item.description}<br />Tools used: {item.tools.join(", ")}</div>
+              <div style={{ width: '88%', display: 'inline-block', verticalAlign: 'top' }} ><i>{item.title} at {item.company}</i><br />{item.description}<br />Tools used: {item.tools.join(", ")}</div>
               <div>&nbsp;</div>
             </div>
           )}
