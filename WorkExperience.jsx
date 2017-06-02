@@ -9,8 +9,8 @@ class WorkExperience extends React.Component {
 	    	<CardText expandable={true}>
           {this.props.experience.map(item =>
             <div key={item.id} >
-              <div style={{ width: '12%', display: 'inline-block', verticalAlign: 'top' }} >{item.fromYear} - {item.toYear}</div>
-              <div style={{ width: '88%', display: 'inline-block', verticalAlign: 'top' }} ><i>{item.title} at {item.company}</i><br />{item.description}<br />Tools used: {item.tools.join(", ")}</div>
+              <div style={{ width: '15%', display: 'inline-block', verticalAlign: 'top' }} >{item.fromYear} - {item.toYear}</div>
+              <div style={{ width: '85%', display: 'inline-block', verticalAlign: 'top' }} ><i>{item.title} at {item.company}</i><br />{item.description}<br />Tools used: {item.tools.join(", ")}</div>
               <div>&nbsp;</div>
             </div>
           )}
