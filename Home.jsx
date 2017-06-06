@@ -157,7 +157,9 @@ const skills = [
       { id: 2, name: '.NET Core', level: 3, lastUsed: 2017 },
       { id: 3, name: 'WCF', level: 5, lastUsed: 2017 },
       { id: 4, name: 'Castle Windsor', level: 4, lastUsed: 2017 },
-      { id: 5, name: 'Serilog', level: 4, lastUsed: 2017 }
+      { id: 5, name: 'Serilog', level: 4, lastUsed: 2017 },
+      { id: 6, name: 'Moq', level: 4, lastUsed: 2017 },
+      { id: 7, name: 'Topshelf', level: 3, lastUsed: 2017 }
     ]
   },
   {
@@ -176,6 +178,7 @@ const skills = [
     skills: [
       { id: 1, name: 'HTML', level: 4, lastUsed: 2017 },
       { id: 2, name: 'CSS', level: 3, lastUsed: 2017 },
+      { id: 3, name: 'Winforms', level: 3, lastUsed: 2015 },
     ]
   },
   {
