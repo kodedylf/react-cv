@@ -153,13 +153,14 @@ const skills = [
     id: 4,
     groupTitle: '.NET frameworks',
     skills: [
-      { id: 1, name: 'Entity Framework', level: 5, lastUsed: 2017 },
+      { id: 1, name: '.NET 4.6', level: 5, lastUsed: 2017 },
       { id: 2, name: '.NET Core', level: 3, lastUsed: 2017 },
-      { id: 3, name: 'WCF', level: 5, lastUsed: 2017 },
-      { id: 4, name: 'Castle Windsor', level: 4, lastUsed: 2017 },
-      { id: 5, name: 'Serilog', level: 4, lastUsed: 2017 },
-      { id: 6, name: 'Moq', level: 4, lastUsed: 2017 },
-      { id: 7, name: 'Topshelf', level: 3, lastUsed: 2017 }
+      { id: 3, name: 'Entity Framework', level: 5, lastUsed: 2017 },
+      { id: 4, name: 'WCF', level: 5, lastUsed: 2017 },
+      { id: 5, name: 'Castle Windsor', level: 4, lastUsed: 2017 },
+      { id: 6, name: 'Serilog', level: 4, lastUsed: 2017 },
+      { id: 7, name: 'Moq', level: 4, lastUsed: 2017 },
+      { id: 8, name: 'Topshelf', level: 3, lastUsed: 2017 }
     ]
   },
   {
