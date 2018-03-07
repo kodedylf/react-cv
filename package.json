@@ -4,7 +4,8 @@
   "description": "CV for Hans Kilian",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js -p && cp ./index.html ./dist/ && cp ./hans.jpg ./dist/"
   },
   "author": "Hans Kilian",
   "license": "ISC",
@@ -21,6 +22,7 @@
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.22.0",
-    "webpack": "^2.6.1"
+    "webpack": "^2.7.0",
+    "webpack-cli": "^2.0.10"
   }
 }
