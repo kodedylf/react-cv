@@ -19,6 +19,14 @@ const style = {
 
 const workExperience = [
   {
+    id: 1,
+    fromYear: 2017,
+    title: 'External consultant',
+    company: "Forca",
+    description: 'Full-stack developer on GDPR solution',
+    tools: ['C#', 'Winforms', 'SQL Server', 'WCF', 'SOAP', 'HTTPS', 'XML', 'Edlund Lifelink']
+  },
+  {
     id: 2,
     fromYear: 2015,
     toYear: 2017,
@@ -115,8 +123,8 @@ const skills = [
     id: 1,
     groupTitle: 'Programming languages',
     skills: [
-      { id: 1, name: 'C#', level: 5, lastUsed: 2017 },
-      { id: 2, name: 'Javascript / ES6', level: 3, lastUsed: 2017 },
+      { id: 1, name: 'C#', level: 5, lastUsed: 2018 },
+      { id: 2, name: 'Javascript / ES6', level: 3, lastUsed: 2018 },
       { id: 3, name: 'PL/1', level: 5, lastUsed: 2016 },
       { id: 4, name: 'COBOL', level: 4, lastUsed: 2010 },
       { id: 5, name: 'Java', level: 2, lastUsed: 2010 }
@@ -126,13 +134,13 @@ const skills = [
     id: 2,
     groupTitle: 'Infrastructure',
     skills: [
-      { id: 1, name: 'Windows', level: 5, lastUsed: 2017 },
-      { id: 2, name: 'SQL Server', level: 5, lastUsed: 2017 },
+      { id: 1, name: 'Windows', level: 5, lastUsed: 2018 },
+      { id: 2, name: 'SQL Server', level: 5, lastUsed: 2018 },
       { id: 3, name: 'MySQL', level: 3, lastUsed: 2009 },
       { id: 4, name: 'RabbitMQ', level: 3, lastUsed: 2017 },
-      { id: 5, name: 'ElasticSearch', level: 3, lastUsed: 2017 },
-      { id: 6, name: 'Kibana', level: 3, lastUsed: 2017 },
-      { id: 7, name: 'Docker', level: 2, lastUsed: 2017 },
+      { id: 5, name: 'ElasticSearch', level: 3, lastUsed: 2018 },
+      { id: 6, name: 'Kibana', level: 3, lastUsed: 2018 },
+      { id: 7, name: 'Docker', level: 4, lastUsed: 2018 },
       { id: 8, name: 'DB2', level: 5, lastUsed: 2015 },
       { id: 9, name: 'CICS', level: 5, lastUsed: 2015 }
     ]
@@ -141,24 +149,24 @@ const skills = [
     id: 3,
     groupTitle: 'Development tools',
     skills: [
-      { id: 1, name: 'Visual Studio 2017', level: 5, lastUsed: 2017 },
-      { id: 2, name: 'Team Foundation Server', level: 4, lastUsed: 2017 },
-      { id: 3, name: 'Git', level: 4, lastUsed: 2017 },
+      { id: 1, name: 'Visual Studio 2017', level: 5, lastUsed: 2018 },
+      { id: 2, name: 'Team Foundation Server', level: 4, lastUsed: 2018 },
+      { id: 3, name: 'Git', level: 4, lastUsed: 2018 },
       { id: 4, name: 'Octopus deploy', level: 3, lastUsed: 2017 },
       { id: 5, name: 'TSO', level: 5, lastUsed: 2017 },
-      { id: 6, name: 'Webpack', level: 2, lastUsed: 2017 }
+      { id: 6, name: 'Webpack', level: 2, lastUsed: 2018 }
     ]
   },
   {
     id: 4,
     groupTitle: '.NET frameworks',
     skills: [
-      { id: 1, name: '.NET 4.6', level: 5, lastUsed: 2017 },
-      { id: 2, name: '.NET Core', level: 3, lastUsed: 2017 },
-      { id: 3, name: 'Entity Framework', level: 5, lastUsed: 2017 },
-      { id: 4, name: 'WCF', level: 5, lastUsed: 2017 },
+      { id: 1, name: '.NET 4.6', level: 5, lastUsed: 2018 },
+      { id: 2, name: '.NET Core', level: 4, lastUsed: 2018 },
+      { id: 3, name: 'Entity Framework', level: 5, lastUsed: 2018 },
+      { id: 4, name: 'WCF', level: 5, lastUsed: 2018 },
       { id: 5, name: 'Castle Windsor', level: 4, lastUsed: 2017 },
-      { id: 6, name: 'Serilog', level: 4, lastUsed: 2017 },
+      { id: 6, name: 'Serilog', level: 4, lastUsed: 2018 },
       { id: 7, name: 'Moq', level: 4, lastUsed: 2017 },
       { id: 8, name: 'Topshelf', level: 3, lastUsed: 2017 }
     ]
@@ -167,38 +175,38 @@ const skills = [
     id: 5,
     groupTitle: 'Javascript frameworks',
     skills: [
-      { id: 1, name: 'React', level: 3, lastUsed: 2017 },
+      { id: 1, name: 'React', level: 3, lastUsed: 2018 },
       { id: 2, name: 'Angular 1.x', level: 2, lastUsed: 2017 },
-      { id: 3, name: 'Material UI', level: 3, lastUsed: 2017 },
-      { id: 4, name: 'Bootstrap', level: 3, lastUsed: 2017 }
+      { id: 3, name: 'Material UI', level: 3, lastUsed: 2018 },
+      { id: 4, name: 'Bootstrap', level: 3, lastUsed: 2018 }
     ]
   },
   {
     id: 6,
     groupTitle: 'User interface',
     skills: [
-      { id: 1, name: 'HTML', level: 4, lastUsed: 2017 },
-      { id: 2, name: 'CSS', level: 3, lastUsed: 2017 },
-      { id: 3, name: 'Winforms', level: 3, lastUsed: 2015 },
+      { id: 1, name: 'HTML', level: 4, lastUsed: 2018 },
+      { id: 2, name: 'CSS', level: 3, lastUsed: 2018 },
+      { id: 3, name: 'Winforms', level: 3, lastUsed: 2018 },
     ]
   },
   {
     id: 7,
     groupTitle: 'Communication',
     skills: [
-      { id: 1, name: 'XML', level: 5, lastUsed: 2017 },
-      { id: 2, name: 'SOAP', level: 5, lastUsed: 2017 },
-      { id: 3, name: 'JSON', level: 5, lastUsed: 2017 },
-      { id: 4, name: 'REST', level: 5, lastUsed: 2017 }
+      { id: 1, name: 'XML', level: 5, lastUsed: 2018 },
+      { id: 2, name: 'SOAP', level: 5, lastUsed: 2018 },
+      { id: 3, name: 'JSON', level: 5, lastUsed: 2018 },
+      { id: 4, name: 'REST', level: 5, lastUsed: 2018 }
     ]
   },
   {
     id: 8,
     groupTitle: 'Methodologies',
     skills: [
-      { id: 1, name: 'Domain-driven design', level: 5, lastUsed: 2017 },
-      { id: 2, name: 'Scrum', level: 5, lastUsed: 2017 },
-      { id: 3, name: 'UML', level: 4, lastUsed: 2017 }
+      { id: 1, name: 'Domain-driven design', level: 5, lastUsed: 2018 },
+      { id: 2, name: 'Scrum', level: 5, lastUsed: 2018 },
+      { id: 3, name: 'UML', level: 4, lastUsed: 2018 }
     ]
   },
   {
@@ -206,8 +214,16 @@ const skills = [
     groupTitle: 'Business domains',
     skills: [
       { id: 1, name: 'Real estate mortaging', level: 4, lastUsed: 2017 },
-      { id: 2, name: 'Asset valuation', level: 4, lastUsed: 2015 },
-      { id: 3, name: 'Accounting', level: 3, lastUsed: 2003 }
+      { id: 2, name: 'Pension', level: 2, lastUsed: 2018 },
+      { id: 3, name: 'Asset valuation', level: 4, lastUsed: 2015 },
+      { id: 4, name: 'Accounting', level: 3, lastUsed: 2003 }
+    ]
+  },
+  {
+    id: 9,
+    groupTitle: 'Business solutions',
+    skills: [
+      { id: 1, name: 'Edlund Lifelink', level: 3, lastUsed: 2018 }
     ]
   }
 ];
