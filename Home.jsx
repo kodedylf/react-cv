@@ -23,8 +23,8 @@ const workExperience = [
     fromYear: 2017,
     title: 'External consultant',
     company: "Forca",
-    description: 'Full-stack developer on GDPR solution',
-    tools: ['C#', 'Winforms', 'SQL Server', 'WCF', 'SOAP', 'HTTPS', 'XML', 'Edlund Lifelink']
+    description: 'Full-stack developer. Solution to coordinate deletionof data across sub-systems (GDPR). Moved client/server communication from .NET remoting to WCF with HTTPS.',
+    tools: ['C#', '.NET', 'Winforms', 'SQL Server', 'WCF', 'SOAP', 'HTTPS', 'XML', 'Edlund Lifelink']
   },
   {
     id: 2,
