@@ -12,6 +12,8 @@ class ContactInfo extends React.Component {
                 <FontAwesome name='phone' style={iconStyle} />+45 5050 3270
                 <div style={{ width: 30, display: 'inline-block' }} ></div>
                 <a href="mailto:hans@kilianconsult.dk" style={{ color: 'inherit', textDecoration: 'inherit', cursor: 'pointer' }}><FontAwesome name='envelope' style={iconStyle} />hans@kilianconsult.dk</a>
+                <div style={{ width: 30, display: 'inline-block' }} ></div>
+                <a href="https://github.com/kodedylf/react-cv" style={{ color: 'inherit', textDecoration: 'inherit', cursor: 'pointer' }}><FontAwesome name='github' style={iconStyle} />Github</a>
               </Paper>);
   }
 };
