@@ -161,16 +161,17 @@ const skills = [
     id: 4,
     groupTitle: '.NET frameworks',
     skills: [
-      { id: 1, name: '.NET 4.6', level: 5, lastUsed: 2018 },
+      { id: 1, name: '.NET 4.7', level: 5, lastUsed: 2018 },
       { id: 2, name: '.NET Core', level: 4, lastUsed: 2018 },
-      { id: 3, name: 'Entity Framework', level: 5, lastUsed: 2018 },
-      { id: 4, name: 'WCF', level: 5, lastUsed: 2018 },
-      { id: 5, name: 'NUnit', level: 4, lastUsed: 2018 },
-      { id: 6, name: 'Castle Windsor', level: 4, lastUsed: 2017 },
-      { id: 7, name: 'Serilog', level: 4, lastUsed: 2018 },
-      { id: 8, name: 'Moq', level: 4, lastUsed: 2017 },
-      { id: 9, name: 'NSubstitute', level: 4, lastUsed: 2018 },
-      { id: 10, name: 'Topshelf', level: 3, lastUsed: 2017 }
+      { id: 3, name: 'Razor pages', level: 3, lastUsed: 2018 },
+      { id: 4, name: 'Entity Framework', level: 5, lastUsed: 2018 },
+      { id: 5, name: 'WCF', level: 5, lastUsed: 2018 },
+      { id: 6, name: 'NUnit', level: 4, lastUsed: 2018 },
+      { id: 7, name: 'Castle Windsor', level: 4, lastUsed: 2017 },
+      { id: 8, name: 'Serilog', level: 4, lastUsed: 2018 },
+      { id: 9, name: 'Moq', level: 4, lastUsed: 2017 },
+      { id: 10, name: 'NSubstitute', level: 4, lastUsed: 2018 },
+      { id: 11, name: 'Topshelf', level: 3, lastUsed: 2017 }
     ]
   },
   {
