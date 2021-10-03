@@ -20,6 +20,15 @@ const style = {
 const workExperience = [
   {
     id: 1,
+    fromYear: 2021,
+    toYear: '',
+    title: 'External consultant',
+    company: "Byggeskadefonden",
+    description: 'Full-stack developer. Internal line-of-business system. External web portal',
+    tools: ['C#', 'Javascript', '.NET core', 'Blazor', 'ASP.NET', 'SQL Server', 'Angular 1.x', 'WCF', 'SOAP', 'WPF', 'OpenShift']
+  },
+  {
+    id: 2,
     fromYear: 2017,
     toYear: 2021,
     title: 'External consultant',
@@ -28,7 +37,7 @@ const workExperience = [
     tools: ['C#', '.NET', 'ASP.NET', 'Winforms', 'SQL Server', 'WCF', 'SOAP', 'HTTPS', 'XML', 'Edlund Lifelink', 'NUnit', 'NSubstitute']
   },
   {
-    id: 2,
+    id: 3,
     fromYear: 2015,
     toYear: 2017,
     title: 'Corporate Entrepreneur',
@@ -37,7 +46,7 @@ const workExperience = [
     tools: ['Domain-driven design', 'Event driven systems', 'C#', 'SQL Server (Entity Framework)', 'WCF', 'SOAP', 'Rest', 'XML', 'JSON', 'RabbitMQ', 'ELK', 'React', 'ES6', 'Microservices', 'Integration with legacy systems']
   },
   {
-    id: 3,
+    id: 4,
     fromYear: 2009,
     toYear: 2015,
     title: 'Consultant',
@@ -46,7 +55,7 @@ const workExperience = [
     tools: ['C#', 'SQL Server (Entity Framework)', 'WCF', 'SOAP', 'Rest', 'XML', 'Web', 'PL/1', 'DB2', 'Domain-driven design']
   },
   {
-    id: 4,
+    id: 5,
     fromYear: 2008,
     toYear: 2009,
     title: 'Consultant',
@@ -55,7 +64,7 @@ const workExperience = [
     tools: ['COBOL', 'C#', 'XML', 'Biztalk', 'C', 'MVS', 'DB2', 'Windows', 'SQL server', 'MQ', 'Microsoft Host Integration Server']
   },
   {
-    id: 5,
+    id: 6,
     fromYear: 2004,
     toYear: 2008,
     title: 'Consultant',
@@ -64,7 +73,7 @@ const workExperience = [
     tools: ['CICS', 'COBOL', 'DB2', 'C', 'Foundation', 'Windows', 'Perl', 'C++']
   },
   {
-    id: 6,
+    id: 7,
     fromYear: 2003,
     toYear: 2004,
     title: 'Consultant',
@@ -73,7 +82,7 @@ const workExperience = [
     tools: ['CICS', 'VAG', 'COBOL', 'DB2']
   },
   {
-    id: 7,
+    id: 8,
     fromYear: 1997,
     toYear: 2003,
     title: 'Consultant',
@@ -82,7 +91,7 @@ const workExperience = [
     tools: ['PL/1', 'VAG', 'CICS', 'DB2', 'SAS']
   },
   {
-    id: 8,
+    id: 9,
     fromYear: 1992,
     toYear: 1996,
     title: 'Operations consultant',
@@ -91,7 +100,7 @@ const workExperience = [
     tools: ['SAS', 'REXX', 'DB2', 'RACF', 'DFSMS']
   },
   {
-    id: 9,
+    id: 10,
     fromYear: 1987,
     toYear: 1992,
     title: 'Systems programmer',
@@ -100,7 +109,7 @@ const workExperience = [
     tools: ['DB2', 'CICS', 'SAS', 'MVS', 'PL/1', 'S/370 Assembler']
   },
   {
-    id: 10,
+    id: 11,
     fromYear: 1986,
     toYear: 1987,
     title: 'Developer',
@@ -109,7 +118,7 @@ const workExperience = [
     tools: ['PL/1', 'DB2', 'VSAM']
   },
   {
-    id: 11,
+    id: 12,
     fromYear: 1984,
     toYear: 1986,
     title: 'Systems administrator',
