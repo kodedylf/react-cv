@@ -175,15 +175,16 @@ const skills = [
       { id: 1, name: '.NET 4.8', level: 5, lastUsed: 2021 },
       { id: 2, name: '.NET Core', level: 4, lastUsed: 2021 },
       { id: 3, name: 'ASP.NET', level: 4, lastUsed: 2021 },
-      { id: 4, name: 'Razor pages', level: 3, lastUsed: 2019 },
-      { id: 5, name: 'Entity Framework', level: 5, lastUsed: 2019 },
-      { id: 6, name: 'WCF', level: 5, lastUsed: 2021 },
-      { id: 7, name: 'NUnit', level: 4, lastUsed: 2021 },
-      { id: 8, name: 'Castle Windsor', level: 4, lastUsed: 2017 },
-      { id: 9, name: 'Serilog', level: 4, lastUsed: 2019 },
-      { id: 10, name: 'Moq', level: 4, lastUsed: 2017 },
-      { id: 11, name: 'NSubstitute', level: 4, lastUsed: 2021 },
-      { id: 12, name: 'Topshelf', level: 3, lastUsed: 2017 }
+      { id: 4, name: 'Blazor', level: 3, lastUsed: 2021 },
+      { id: 5, name: 'Razor pages', level: 3, lastUsed: 2019 },
+      { id: 6, name: 'Entity Framework', level: 5, lastUsed: 2019 },
+      { id: 7, name: 'WCF', level: 5, lastUsed: 2021 },
+      { id: 8, name: 'NUnit', level: 4, lastUsed: 2021 },
+      { id: 9, name: 'Castle Windsor', level: 4, lastUsed: 2017 },
+      { id: 10, name: 'Serilog', level: 4, lastUsed: 2019 },
+      { id: 11, name: 'Moq', level: 4, lastUsed: 2017 },
+      { id: 12, name: 'NSubstitute', level: 4, lastUsed: 2021 },
+      { id: 13, name: 'Topshelf', level: 3, lastUsed: 2017 }
     ]
   },
   {
@@ -191,7 +192,7 @@ const skills = [
     groupTitle: 'Javascript frameworks',
     skills: [
       { id: 1, name: 'React', level: 3, lastUsed: 2021 },
-      { id: 2, name: 'Angular 1.x', level: 2, lastUsed: 2017 },
+      { id: 2, name: 'Angular 1.x', level: 2, lastUsed: 2021 },
       { id: 3, name: 'Material UI', level: 3, lastUsed: 2018 },
       { id: 4, name: 'Bootstrap', level: 3, lastUsed: 2021 }
     ]
