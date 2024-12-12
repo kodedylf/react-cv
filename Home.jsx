@@ -20,15 +20,24 @@ const style = {
 const workExperience = [
   {
     id: 1,
+    fromYear: 2022,
+    toYear: 2024,
+    title: 'External consultant',
+    company: "Keylane A/S",
+    description: "Full-stack developer. Pension advisory system. Maintenance on existing system. Migration to new technology",
+    tools: ['C#', 'Javascript', '.NET Framework', '.NET core', 'SQL Server', 'Docker', 'Kubernetes', 'Helm', 'IIS']
+  },
+  {
+    id: 2,
     fromYear: 2021,
-    toYear: '',
+    toYear: 2022,
     title: 'External consultant',
     company: "Byggeskadefonden",
     description: 'Full-stack developer. Internal line-of-business system. External web portal',
     tools: ['C#', 'Javascript', '.NET core', 'Blazor', 'ASP.NET', 'SQL Server', 'Angular 1.x', 'WCF', 'SOAP', 'WPF', 'OpenShift']
   },
   {
-    id: 2,
+    id: 3,
     fromYear: 2017,
     toYear: 2021,
     title: 'External consultant',
@@ -37,7 +46,7 @@ const workExperience = [
     tools: ['C#', '.NET', 'ASP.NET', 'Winforms', 'SQL Server', 'WCF', 'SOAP', 'HTTPS', 'XML', 'Edlund Lifelink', 'NUnit', 'NSubstitute']
   },
   {
-    id: 3,
+    id: 4,
     fromYear: 2015,
     toYear: 2017,
     title: 'Corporate Entrepreneur',
@@ -46,7 +55,7 @@ const workExperience = [
     tools: ['Domain-driven design', 'Event driven systems', 'C#', 'SQL Server (Entity Framework)', 'WCF', 'SOAP', 'Rest', 'XML', 'JSON', 'RabbitMQ', 'ELK', 'React', 'ES6', 'Microservices', 'Integration with legacy systems']
   },
   {
-    id: 4,
+    id: 5,
     fromYear: 2009,
     toYear: 2015,
     title: 'Consultant',
@@ -55,7 +64,7 @@ const workExperience = [
     tools: ['C#', 'SQL Server (Entity Framework)', 'WCF', 'SOAP', 'Rest', 'XML', 'Web', 'PL/1', 'DB2', 'Domain-driven design']
   },
   {
-    id: 5,
+    id: 6,
     fromYear: 2008,
     toYear: 2009,
     title: 'Consultant',
@@ -64,7 +73,7 @@ const workExperience = [
     tools: ['COBOL', 'C#', 'XML', 'Biztalk', 'C', 'MVS', 'DB2', 'Windows', 'SQL server', 'MQ', 'Microsoft Host Integration Server']
   },
   {
-    id: 6,
+    id: 7,
     fromYear: 2004,
     toYear: 2008,
     title: 'Consultant',
@@ -73,7 +82,7 @@ const workExperience = [
     tools: ['CICS', 'COBOL', 'DB2', 'C', 'Foundation', 'Windows', 'Perl', 'C++']
   },
   {
-    id: 7,
+    id: 8,
     fromYear: 2003,
     toYear: 2004,
     title: 'Consultant',
@@ -82,7 +91,7 @@ const workExperience = [
     tools: ['CICS', 'VAG', 'COBOL', 'DB2']
   },
   {
-    id: 8,
+    id: 9,
     fromYear: 1997,
     toYear: 2003,
     title: 'Consultant',
@@ -91,7 +100,7 @@ const workExperience = [
     tools: ['PL/1', 'VAG', 'CICS', 'DB2', 'SAS']
   },
   {
-    id: 9,
+    id: 10,
     fromYear: 1992,
     toYear: 1996,
     title: 'Operations consultant',
@@ -100,7 +109,7 @@ const workExperience = [
     tools: ['SAS', 'REXX', 'DB2', 'RACF', 'DFSMS']
   },
   {
-    id: 10,
+    id: 11,
     fromYear: 1987,
     toYear: 1992,
     title: 'Systems programmer',
@@ -109,7 +118,7 @@ const workExperience = [
     tools: ['DB2', 'CICS', 'SAS', 'MVS', 'PL/1', 'S/370 Assembler']
   },
   {
-    id: 11,
+    id: 12,
     fromYear: 1986,
     toYear: 1987,
     title: 'Developer',
@@ -118,7 +127,7 @@ const workExperience = [
     tools: ['PL/1', 'DB2', 'VSAM']
   },
   {
-    id: 12,
+    id: 13,
     fromYear: 1984,
     toYear: 1986,
     title: 'Systems administrator',
@@ -133,8 +142,8 @@ const skills = [
     id: 1,
     groupTitle: 'Programming languages',
     skills: [
-      { id: 1, name: 'C#', level: 5, lastUsed: 2021 },
-      { id: 2, name: 'Javascript / ES6', level: 3, lastUsed: 2021 },
+      { id: 1, name: 'C#', level: 5, lastUsed: 2024 },
+      { id: 2, name: 'Javascript / ES6', level: 3, lastUsed: 2024 },
       { id: 3, name: 'PL/1', level: 5, lastUsed: 2016 },
       { id: 4, name: 'COBOL', level: 4, lastUsed: 2010 },
       { id: 5, name: 'Java', level: 2, lastUsed: 2010 }
@@ -144,14 +153,14 @@ const skills = [
     id: 2,
     groupTitle: 'Infrastructure',
     skills: [
-      { id: 1, name: 'Windows', level: 5, lastUsed: 2021 },
-      { id: 2, name: 'SQL Server', level: 5, lastUsed: 2021 },
+      { id: 1, name: 'Windows', level: 5, lastUsed: 2024 },
+      { id: 2, name: 'SQL Server', level: 5, lastUsed: 2024 },
       { id: 3, name: 'MySQL', level: 3, lastUsed: 2009 },
       { id: 4, name: 'RabbitMQ', level: 3, lastUsed: 2017 },
       { id: 5, name: 'ElasticSearch', level: 3, lastUsed: 2021 },
       { id: 6, name: 'Kibana', level: 3, lastUsed: 2021 },
-      { id: 7, name: 'Docker', level: 4, lastUsed: 2021 },
-      { id: 8, name: 'Kubernetes', level: 2, lastUsed: 2019 },
+      { id: 7, name: 'Docker', level: 4, lastUsed: 2024 },
+      { id: 8, name: 'Kubernetes', level: 2, lastUsed: 2024 },
       { id: 9, name: 'DB2', level: 5, lastUsed: 2015 },
       { id: 10, name: 'CICS', level: 5, lastUsed: 2015 }
     ]
@@ -160,29 +169,30 @@ const skills = [
     id: 3,
     groupTitle: 'Development tools',
     skills: [
-      { id: 1, name: 'Visual Studio 2019', level: 5, lastUsed: 2021 },
-      { id: 2, name: 'Azure DevOps', level: 4, lastUsed: 2021 },
-      { id: 3, name: 'Git', level: 5, lastUsed: 2021 },
-      { id: 4, name: 'Octopus deploy', level: 3, lastUsed: 2017 },
-      { id: 5, name: 'TSO', level: 5, lastUsed: 2017 },
-      { id: 6, name: 'Webpack', level: 2, lastUsed: 2019 }
+      { id: 1, name: 'Visual Studio 2022', level: 5, lastUsed: 2022 },
+      { id: 2, name: 'JetBrains Rider', level: 5, lastUsed: 2024 },
+      { id: 3, name: 'Azure DevOps', level: 4, lastUsed: 2021 },
+      { id: 4, name: 'Git', level: 5, lastUsed: 2024 },
+      { id: 5, name: 'Octopus deploy', level: 3, lastUsed: 2017 },
+      { id: 6, name: 'TSO', level: 5, lastUsed: 2017 },
+      { id: 7, name: 'Webpack', level: 2, lastUsed: 2019 }
     ]
   },
   {
     id: 4,
     groupTitle: '.NET frameworks',
     skills: [
-      { id: 1, name: '.NET 4.8', level: 5, lastUsed: 2021 },
-      { id: 2, name: '.NET Core', level: 4, lastUsed: 2021 },
-      { id: 3, name: 'ASP.NET', level: 4, lastUsed: 2021 },
+      { id: 1, name: '.NET 4.8', level: 5, lastUsed: 2024 },
+      { id: 2, name: '.NET Core', level: 5, lastUsed: 2024 },
+      { id: 3, name: 'ASP.NET', level: 5, lastUsed: 2024 },
       { id: 4, name: 'Blazor', level: 3, lastUsed: 2021 },
       { id: 5, name: 'Razor pages', level: 3, lastUsed: 2019 },
-      { id: 6, name: 'Entity Framework', level: 5, lastUsed: 2019 },
+      { id: 6, name: 'Entity Framework', level: 5, lastUsed: 2024 },
       { id: 7, name: 'WCF', level: 5, lastUsed: 2021 },
       { id: 8, name: 'NUnit', level: 4, lastUsed: 2021 },
       { id: 9, name: 'Castle Windsor', level: 4, lastUsed: 2017 },
-      { id: 10, name: 'Serilog', level: 4, lastUsed: 2019 },
-      { id: 11, name: 'Moq', level: 4, lastUsed: 2017 },
+      { id: 10, name: 'Serilog', level: 4, lastUsed: 2024 },
+      { id: 11, name: 'Moq', level: 4, lastUsed: 2024 },
       { id: 12, name: 'NSubstitute', level: 4, lastUsed: 2021 },
       { id: 13, name: 'Topshelf', level: 3, lastUsed: 2017 }
     ]
@@ -191,7 +201,7 @@ const skills = [
     id: 5,
     groupTitle: 'Javascript frameworks',
     skills: [
-      { id: 1, name: 'React', level: 3, lastUsed: 2021 },
+      { id: 1, name: 'React', level: 4, lastUsed: 2024 },
       { id: 2, name: 'Angular 1.x', level: 2, lastUsed: 2021 },
       { id: 3, name: 'Material UI', level: 3, lastUsed: 2018 },
       { id: 4, name: 'Bootstrap', level: 3, lastUsed: 2021 }
@@ -201,8 +211,8 @@ const skills = [
     id: 6,
     groupTitle: 'User interface',
     skills: [
-      { id: 1, name: 'HTML', level: 4, lastUsed: 2021 },
-      { id: 2, name: 'CSS', level: 3, lastUsed: 2021 },
+      { id: 1, name: 'HTML', level: 5, lastUsed: 2024 },
+      { id: 2, name: 'CSS', level: 4, lastUsed: 2024 },
       { id: 3, name: 'Winforms', level: 3, lastUsed: 2021 },
     ]
   },
@@ -212,17 +222,17 @@ const skills = [
     skills: [
       { id: 1, name: 'XML', level: 5, lastUsed: 2021 },
       { id: 2, name: 'SOAP', level: 5, lastUsed: 2021 },
-      { id: 3, name: 'JSON', level: 5, lastUsed: 2021 },
-      { id: 4, name: 'REST', level: 5, lastUsed: 2021 }
+      { id: 3, name: 'JSON', level: 5, lastUsed: 2024 },
+      { id: 4, name: 'REST', level: 5, lastUsed: 2024 }
     ]
   },
   {
     id: 8,
     groupTitle: 'Methodologies',
     skills: [
-      { id: 1, name: 'Domain-driven design', level: 5, lastUsed: 2019 },
+      { id: 1, name: 'Domain-driven design', level: 5, lastUsed: 2024 },
       { id: 2, name: 'Scrum', level: 5, lastUsed: 2021 },
-      { id: 3, name: 'UML', level: 4, lastUsed: 2019 }
+      { id: 3, name: 'UML', level: 4, lastUsed: 2024 }
     ]
   },
   {
@@ -230,7 +240,7 @@ const skills = [
     groupTitle: 'Business domains',
     skills: [
       { id: 1, name: 'Real estate mortaging', level: 4, lastUsed: 2017 },
-      { id: 2, name: 'Pension', level: 3, lastUsed: 2021 },
+      { id: 2, name: 'Pension', level: 3, lastUsed: 2024 },
       { id: 3, name: 'Asset valuation', level: 4, lastUsed: 2015 },
       { id: 4, name: 'Accounting', level: 3, lastUsed: 2003 }
     ]

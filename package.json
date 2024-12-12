@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js -p && cp ./index.html ./dist/ && cp ./hans.jpg ./dist/",
-    "deploy": "scp dist/* kilianconsult.dk:/var/www/kilianconsult.dk/resume"
+    "deploy": "scp dist/* kilianconsult.dk:/var/www/kilianconsult.dk/"
   },
   "author": "Hans Kilian",
   "license": "ISC",
