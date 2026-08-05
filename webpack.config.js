@@ -11,13 +11,24 @@ module.exports = {
     extensions: ['*', '.js', '.jsx']
   },
   module: {
-    loaders: [
+    rules: [ 
       {
-        test: /.jsx?$/,
-        loader: 'babel-loader',
+        test: /\.jsx?$/,
         exclude: /node_modules/,
-        query: {
-          presets: ['es2015', 'react']
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              '@babel/preset-env',
+              [
+                '@babel/preset-react',
+                {
+                  // Forces Babel to use React.createElement instead of jsxDEV
+                  runtime: 'classic' 
+                }
+              ]
+            ]
+          }
         }
       }
     ]
